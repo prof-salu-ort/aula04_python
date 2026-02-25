@@ -1,0 +1,6 @@
+***Definindo o usuario e e-mail no git***
+
+git config --global user.name "SEU_NOME"
+[ENTER]
+git config --global user.email "SEU_EMAIL"
+[ENTER]
