@@ -31,11 +31,18 @@ notas_01 = ((((((valor % 100) % 50) % 20) % 10) % 5) % 2) // 1
 #saida
 print('Valor: R$', valor)
 print('R$ 100,00 --', '{:02}'.format(notas_100),'-- R${:8.2f}'.format(notas_100 * 100))
-print('R$  50,00 --', '{:02}'.format(notas_50),'-- R${:8.2f}'.format(notas_50 * 50))
-print('R$  20,00 --', '{:02}'.format(notas_20),'-- R${:8.2f}'.format(notas_20 * 20))
-print('R$  10,00 --', '{:02}'.format(notas_10),'-- R${:8.2f}'.format(notas_10 * 10))
-print('R$   5,00 --', '{:02}'.format(notas_05),'-- R${:8.2f}'.format(notas_05 * 5))
-print('R$   2,00 --', '{:02}'.format(notas_02),'-- R${:8.2f}'.format(notas_02 * 2))
-print('R$   1,00 --', '{:02}'.format(notas_01),'-- R${:8.2f}'.format(notas_01 * 1))
+print('R$  50,00 --', '{:02}'.format(notas_50), '-- R${:8.2f}'.format(notas_50 * 50))
+print('R$  20,00 --', '{:02}'.format(notas_20), '-- R${:8.2f}'.format(notas_20 * 20))
+print('R$  10,00 --', '{:02}'.format(notas_10), '-- R${:8.2f}'.format(notas_10 * 10))
+print('R$   5,00 --', '{:02}'.format(notas_05), '-- R${:8.2f}'.format(notas_05 * 5))
+print('R$   2,00 --', '{:02}'.format(notas_02), '-- R${:8.2f}'.format(notas_02 * 2))
+print('R$   1,00 --', '{:02}'.format(notas_01), '-- R${:8.2f}'.format(notas_01 * 1))
 
+'''
+O comando format: Ele formata uma string, onde:
+exemplo ==> {:8.2f}'.format(notas_100 * 100))
 
+:8  --> Indica que o valor tera no maximo 8 digitos
+.2f --> Indica o total de casas decimais
+notas_100 * 100 --> O valor que será inserido na string formatada
+'''
