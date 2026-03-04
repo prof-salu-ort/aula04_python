@@ -39,10 +39,11 @@ print('R$   2,00 --', '{:02}'.format(notas_02), '-- R${:8.2f}'.format(notas_02 *
 print('R$   1,00 --', '{:02}'.format(notas_01), '-- R${:8.2f}'.format(notas_01 * 1))
 
 '''
-O comando format: Ele formata uma string, onde:
-exemplo ==> {:8.2f}'.format(notas_100 * 100))
+O comando format==> Formata uma string, onde:
 
-:8  --> Indica que o valor tera no maximo 8 digitos
+exemplo ==> '-- R${:8.2f}'.format(notas_100 * 100))
+
+:8  --> Indica que a string tera 8 caracteres
 .2f --> Indica o total de casas decimais
 notas_100 * 100 --> O valor que será inserido na string formatada
 '''
